@@ -1,0 +1,18 @@
+{
+  "name": "mocha-course",
+  "version": "1.0.0",
+  "description": "Testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:report:spec": "mocha test/ --reporter spec",
+    "test:report:dot": "mocha test/ --reporter dot",
+    "test:report:nyan": "mocha test/ --reporter nyan"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoyo-i3/"
+  }
+}
